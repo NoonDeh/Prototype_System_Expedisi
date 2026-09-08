@@ -76,19 +76,21 @@ while True:
                         ongkir = (round(berat_hitung / 5)) + (round(jarak / 5))
 
                 hitung_ongkir = 10000 + (ongkir * 7000)
-
-                print()
-                print("================================")
-                print("       HASIL TRANSAKSI          ") 
-                print("================================")
-                print(f"Berat Paket: {berat}kg | {type(berat)}")
-                print(f"Lokasi Pengiriman: {jarak}km | {type(jarak)}")
-                print(f"Tipe Pengiriman: {pengiriman} | {type(pengiriman)}")
-                print(f"Harga Ongkir: Rp{hitung_ongkir} | {type(hitung_ongkir)}")
-                print("================================")
-                print()
+                
             else:
                 print("Masukkan zona dengan benar")
+
+            print()
+            print("================================")
+            print("       HASIL TRANSAKSI          ") 
+            print("================================")
+            print(f"Berat Paket: {berat}kg | {type(berat)}")
+            print(f"Lokasi Pengiriman: {jarak}km | {type(jarak)}")
+            print(f"Tipe Pengiriman: {pengiriman} | {type(pengiriman)}")
+            print(f"Harga Ongkir: Rp{hitung_ongkir} | {type(hitung_ongkir)}")
+            print("================================")
+            print()
+            
     else:
         print("Masukkan input dengan benar")
 
